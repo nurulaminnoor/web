@@ -1,0 +1,36 @@
+.menu{
+    background-color: lightblue; 
+    display:flex;
+    justify-content: flex-end;
+}
+.menu a{
+    text-decoration: none;
+    padding: 20px;
+    color:indigo;
+}
+.menu a:hover{background-color: gray;}
+@media screen and (max-width: 600px){
+    .menu{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .menu a{background-color: skyblue;
+        margin:10px 0;
+        text-align: center;
+        border-radius: 10px;
+    }
+}
+
+h1{
+    color: white; background-color: green; text-align: center;
+}
+h2{text-align: center; font-style:italic; font-size: 20px; }
+.p1{
+    border-width: 2px; border-style: solid;}
+a{
+    color: blue; text-decoration: none; text-align: center; display: block
+}
+body{background-color:white;
+} 
+img{display: block; margin-left: auto; margin-right: auto; width: 50%;}
+
